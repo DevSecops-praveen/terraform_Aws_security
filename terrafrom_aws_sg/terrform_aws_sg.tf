@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key = "AKIAY6OHVZ5ID7ZLTG7A"
-  secret_key = "rBWZhjezkkWhvH0BGW6CRUE9eVFzO3/1DiKYKQ9P"
+  access_key = "Put you accesskey"
+  secret_key = "put your secretkey"
 }
 
 resource "aws_security_group" "mysg" {
